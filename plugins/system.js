@@ -12,15 +12,17 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let status = `*SILENT-SOBX-MD UPTIME LIST*
+let status = `*╭──────────●●►*
+*SILENT-SOBX-MD UPTIME LIST↷*
 
-*UPTIME:*  ${runtime(process.uptime())}
+*UPTIME:➠*  ${runtime(process.uptime())}
 
-*RAM USAGE:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+*RAM USAGE➠:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 
-*HOSTNAME:* ${os.hostname()}
+*HOSTNAME:➠* ${os.hostname()}
 
-*OWNER:* *SILENT LOVER⁴³²*
+*OWNER:➠* *SILENT LOVER⁴³²*
+*╰──────────●●►*
 `
 await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:`${status}`},{quoted:mek})
 

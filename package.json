@@ -26,6 +26,7 @@
     "pixaldrain-sinhalasub": "git+https://github.com/DarkMakerofc/pixaldrain-sinhalasub.git",
     "translate-google-api": "^1.0.4",
     "google-tts-api": "^2.0.2",
+    "punycode.js": "2.3.1", 
     "ruhend-scraper" : "8.0.3",
     "buffer" : "6.0.3",
     "android-versions": "2.0.0",

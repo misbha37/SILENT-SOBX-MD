@@ -22,7 +22,7 @@ let repo =`
 *|* *https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s*
 *╰──────────────●●►*
 
-> *POWERED BY SILENTLOVER432*
+> *POWERED BY SI NOT*
 `
 await conn.sendMessage(from, { text: repo ,
   contextInfo: {
