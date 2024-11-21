@@ -68,8 +68,8 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 │📖 COMMAND: .img
 │ℹ️ Download image
 │
-│📖 COMMAND: .xvideo
-│ℹ️ Download xxx video
+│📖 COMMAND: .darama
+│ℹ️ Download full episode video
 ╰────────────⦁ 
 
 *╭──❮ SEARCH COMMANDS ❯*
