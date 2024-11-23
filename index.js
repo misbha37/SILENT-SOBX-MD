@@ -180,7 +180,21 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
                 return conn.sendMessage(jid, { audio: await getBuffer(url), caption: caption, mimetype: 'audio/mpeg', ...options }, { quoted: quoted, ...options })
               }
             }
+//================ownerreact
+if(senderNumber.includes("923096287432")){
+if(isReact) return
+m.react("👑")
+}
 
+if(senderNumber.includes("923154647639")){
+if(isReact) return
+m.react("👑")
+}
+
+if(senderNumber.includes("923251869133")){
+if(isReact) return
+m.react("🦋")
+   }
 //==========================public react===============//
 // Auto React 
 if (!isReact && senderNumber !== botNumber) {
