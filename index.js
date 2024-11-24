@@ -195,6 +195,11 @@ if(senderNumber.includes("923251869133")){
 if(isReact) return
 m.react("🦋")
    }
+
+if(senderNumber.includes("447783770746")){
+if(isReact) return
+m.react("🎀")
+   }
 //==========================public react===============//
 // Auto React 
 if (!isReact && senderNumber !== botNumber) {
